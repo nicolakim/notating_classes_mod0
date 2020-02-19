@@ -1,0 +1,19 @@
+Dog
+
+attributes:
+given_name (string)
+breed (string)
+has_fur (boolean)
+weight (integer)
+age_months (integer)
+tricks (array of strings)
+
+
+methods:
+calculate_age_in_years: (calculates age_months / 12.0)
+learn_new_trick: (adds trick to the end of the tricks array)
+calculate_dog_size_category: (calculates using breed, age_months and weight)
+overweight?:
+  (true if dog_size_category is "small" and weight is >= 40)
+  (true if dog_size_category is "medium" and weight is >= 90)
+  (true if dog_size_category is "large" and weight is >= 160)
