@@ -1,0 +1,50 @@
+# instance one:
+corgi
+
+attributes:
+given_name: "Oliver"
+color: "light brown and white"
+breed: "corgi"
+has_fur: true
+weight_in_lbs: 26
+age_months: 18
+dog_size_category: "small"
+can_bark: true
+favorite_trick: "spin"
+biggest_dislike: "being left alone"
+
+methods:
+calculate age_in_years ()
+perform favorite_trick with given_name (given_name favorite_trick)
+make bark sound with biggest_dislike (make can_bark with biggest_dislike)
+calculate dog_size_category (calculate breed, age_months and weight_in_lbs)
+calculate_if_overweight:
+  (if dog_size_category is "small", weight_in_lbs is >= 40)
+  (if dog_size_category is "medium", weight_in_lbs is >= 90)
+  (if dog_size_category is "large", weight_in_lbs is >= 160)
+
+
+# instance two:
+labrador
+
+attributes:
+given_name: "Mr Peanutbutter"
+color: "yellow"
+breed: "labrador"
+has_fur: true
+weight_in_lbs: 71
+age_months: 72
+dog_size_category: "large"
+can_bark: true
+favorite_trick: "fetch"
+biggest_dislike: "mail trucks"
+
+methods:
+calculate age_in_years ()
+perform favorite_trick with given_name (given_name favorite_trick)
+make bark sound with biggest_dislike (make can_bark with biggest_dislike)
+calculate dog_size_category (calculate breed, age_months and weight_in_lbs)
+calculate_if_overweight:
+  (if dog_size_category is "small", weight_in_lbs is >= 40)
+  (if dog_size_category is "medium", weight_in_lbs is >= 90)
+  (if dog_size_category is "large", weight_in_lbs is >= 160)
